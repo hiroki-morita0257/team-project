@@ -1,1 +1,97 @@
+body {
+  margin: 0;
+}
 
+h1 {
+  margin: 0;
+  padding: 10px 0 10px 0;
+  border-bottom: solid 2px #666666;
+  font-family: sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #333333;
+}
+
+.sidebar {
+  margin: 10px 10px 10px 10px;
+  background-color: #f0f0f0;
+}
+.sidebar ul {
+  margin: 0px;
+  padding: 0 10px 0 10px;
+}
+
+.sidebar li {
+  display: block;
+  margin: 0px 0px 5px 0px;
+  padding: 5px 5px 5px 5px;
+  border-right: solid 2px #cccccc;
+  background-color: #eeeeff;
+}
+
+.sidebar a {
+  color: #444444;
+  text-decoration: none;
+}
+#main {
+  width: 70%;
+  margin: 10px 0 10px 0;
+}
+
+.content > h2 {
+  margin: 20px 10px 10px 10px;
+  border-bottom: solid 1px #cccccc;
+  color: #444444;
+}
+
+.content > h3 {
+  margin: 10px 10px 10px 20px;
+  border-bottom: solid 1px #cccccc;
+}
+
+.content > p {
+  margin: 0 10px 10px 20px;
+}
+
+.content > ul {
+  margin: 0 10px 10px 20px;
+}
+
+#all{
+    display: flex;
+    flex-direction: row;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.beppu {
+    width: 100%;
+    height: auto;
+    margin-top: -10px
+}
+
+.kusatu{
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+}
+
+.gero{
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+}
+
+#id1, #id2, #id3 {
+    background-color:rgb(192, 191, 176);
+}
+
+#id12,#id22, #id32 {
+    margin-top:-20px;
+    background-color:rgb(229, 224, 216);
+}
