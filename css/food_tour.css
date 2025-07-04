@@ -53,3 +53,23 @@ h1 {
 .content > ul {
   margin: 0 10px 10px 20px;
 }
+
+.shop{
+    background-color: #f4f5f3;
+}
+
+.databox{
+    background-color: #fcf9df;
+    font-size: small;
+    padding : 3px 10px 3px 10px;
+    margin: 6px 6px 6px 6px
+}
+
+.name{
+    font-size: large;
+    border-bottom : solid 3px #4E7937;
+}
+
+.recommend{
+    font-size: larger;
+}
