@@ -16,6 +16,7 @@ h1 {
 .sidebar {
   margin: 10px 10px 10px 10px;
   background-color: #f0f0f0;
+  width: 30%;
 }
 .sidebar ul {
   margin: 0px;
@@ -66,7 +67,6 @@ h1 {
 #container {
     display: flex;
     flex-direction: row;
-    
 }
 
 .beppu {
