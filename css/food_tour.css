@@ -58,18 +58,18 @@ h1 {
     background-color: #f4f5f3;
 }
 
-.databox{
-    background-color: #fcf9df;
-    font-size: small;
-    padding : 3px 10px 3px 10px;
-    margin: 6px 6px 6px 6px
+.recommend{
+    font-size: 19px;
 }
 
 .name{
-    font-size: large;
+    font-size: 18px;
     border-bottom : solid 3px #4E7937;
 }
 
-.recommend{
-    font-size: larger;
+.databox{
+    background-color: #fcf9df;
+    font-size: 13px;
+    padding : 3px 10px 3px 10px;
+    margin: 6px 6px 6px 6px
 }
