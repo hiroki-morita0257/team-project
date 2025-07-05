@@ -1,0 +1,25 @@
+h1 {
+
+    font-size: 6vw;
+    color:black;
+}
+.box {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    color:white;
+    font-size:15vw;
+    font
+}
+#ski {
+    background-image: url('../images/index/ski-image.png')
+}
+#onsen {
+    background-image: url('../images/index/onsen-image.png')
+}
+#food {
+    background-image: url('../images/index/food-image.png')
+}
