@@ -33,7 +33,6 @@ h1 {
     color: black;
     text-shadow: 0 0 2px #fff;
 }
-
 .box a:hover{
     background-blend-mode:normal;
 }
