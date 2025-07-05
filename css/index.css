@@ -1,25 +1,52 @@
 h1 {
 
-    font-size: 6vw;
+    font-size: 30px;
     color:black;
 }
-.box {
+
+.list{
+    display: flex;
+    gap: 21px;
+}
+
+.box{
+    width: calc(33.333% - 14px);
+    flex-shrink: 0;
+}
+
+.box a {
     width: 100%;
     height: auto;
+    aspect-ratio: 1 / 1;
     background-size: cover;
     background-position:center;
     display:flex;
+    align-items: center;
     justify-content:center;
-    color:white;
-    font-size:15vw;
-    font
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: lighten;
+    padding:  15px;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 0 0 2px #fff;
 }
-#ski {
+
+.box a:hover{
+    background-blend-mode:normal;
+}
+
+
+#ski a {
     background-image: url('../images/index/ski-image.png')
+    
 }
-#onsen {
+#onsen a {
     background-image: url('../images/index/onsen-image.png')
 }
-#food {
+#food a {
     background-image: url('../images/index/food-image.png')
 }
+
